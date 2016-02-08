@@ -7,9 +7,9 @@ import java.sql.Statement;
 
 
 public class Rds {
-	static String url = "jdbc:mysql://tweetdata.c83g2woipxnr.us-east-1.rds.amazonaws.com:3306/tweetData";
-	static String usrDB = "leogogo1023";
-	static String password = "greenmilktea";
+	static String url = "";
+	static String usrDB = "";
+	static String password = "";
     public static Statement stmt = Rds.connectDB(url, usrDB, password); 
     
     public static Statement connectDB(String url,String usr,String password){
